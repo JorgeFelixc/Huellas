@@ -1,0 +1,15 @@
+.login-wrapper{
+    width: 90vw;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+.login-header{
+    height:20vh;
+    background-image: url('../../../img/background1.jpg');
+    background-size:cover;
+}
+
+.login-header > p {
+    color:white;
+}

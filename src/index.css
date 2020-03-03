@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.page-header > p:first-child{
+  font-size:2rem;
+  font-weight: 100;
+}
+
+.user-wrapper{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-left:auto;
+}
+
+.user-wrapper > img{
+  margin-left:2vw;
+  width:9vh;
+  height: 9vh;
+  object-fit: cover;
+  border-radius: 50%;
+}
