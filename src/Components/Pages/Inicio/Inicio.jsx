@@ -1,4 +1,4 @@
-import React, { } from 'react';
+import React, { useEffect } from 'react';
 
 import './Inicio.css';
 import { useStateUser } from '../../Hooks/HK-user';
@@ -6,6 +6,8 @@ import Table from '../../Tools/Table/Table';
 
 function Inicio(props){
     const [userData, disptach] = useStateUser();
+
+
 
     function NOT(){
         disptach({
